@@ -41,3 +41,4 @@ function onFormSubmit(e) {
     e.currentTarget.reset();
     localStorage.removeItem(LOCALSTORAGE_KEY);
 }
+console.log(JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY)));
